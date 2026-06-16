@@ -44,6 +44,20 @@ See [SKILLS.md](./SKILLS.md) for the full registry, categories, and conventions.
 
 Skills not used daily live in [`skills-off/`](./skills-off/) so their descriptions don't cost context every session: `agent-builder`, `tdd`, `grill-with-docs`, `ingestion-points`, `financial-analysis`. Re-enable by copying into `~/.claude/skills/`.
 
+## Skills living elsewhere
+
+Not every skill I use lives in this repo. Some are scoped to a specific project (loaded only when working in that folder), and some belong to other agent toolchains. They're listed here for reference — they aren't published in this repo.
+
+| Skill | Where it lives | What it does |
+|---|---|---|
+| overnight-run | `~/Developer/PufferLib/.claude/skills/` | Launch, monitor and report on overnight PufferLib RL training runs on Apple Silicon, with a scheduled morning learning report |
+| obsidian-cli | `~/Obsidian/.claude/skills/` | Read, create, search and manage Obsidian vault notes/tasks via the Obsidian CLI; also plugin/theme dev and debugging |
+| soul | `~/Agent/soul/` | Write and speak as Prannay — voice, worldview and style calibration ([writing guide](file:///Users/pran-ker/Agent/soul/SOUL.md)) |
+| emil-design-eng | `~/.agents/skills/` | Emil Kowalski's design-engineering philosophy — UI polish, animation timing, the invisible details (symlinked into `~/.claude/skills/`) |
+| instrument-agent | `~/.agents/skills/` | Set up Raindrop AI traces for an agent and verify they flow into Workshop |
+| setup-agent-replay | `~/.agents/skills/` | Stand up a local agent replay server for Raindrop Workshop |
+| hyperframes (+ `-cli`, `-registry`, `gsap`, `website-to-hyperframes`) | `~/Developer/imp-tools/video-gen/` | Build HTML-native video: compositions, captions, TTS voiceover, audio-reactive animation, scene transitions |
+
 ## Install
 
 ```bash
