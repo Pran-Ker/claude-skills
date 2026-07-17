@@ -11,6 +11,7 @@ file in the same turn a skill is added, renamed, or archived.
 | good-writing | Clear persuasive prose, Scott Adams method | 2026-06-09 |
 | good-code | Minimal scannable code, no comments, vertical declarations | 2026-06-09 |
 | emil-design-eng | UI polish, animation, design-engineering taste | 2026-06-10 |
+| good-product | Product-level UX taste: performance-as-UX, minimal chrome, restrained visual system, fast paths, content-fidelity craft, plain copy | new 2026-07-17 |
 
 Planned: blog-writing, twitter-writing (voice from ~/Agent/soul/SOUL.md).
 
